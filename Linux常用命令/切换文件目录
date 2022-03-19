@@ -1,0 +1,48 @@
+ASUS@LAPTOP-NMAQV6PP MINGW64 /d/project_hj_py
+$ jointextract
+bash: jointextract: command not found
+
+ASUS@LAPTOP-NMAQV6PP MINGW64 /d/project_hj_py
+$ cd/                                        
+bash: cd/: No such file or directory
+
+ASUS@LAPTOP-NMAQV6PP MINGW64 /d/project_hj_py
+$ cd/paper                                   
+bash: cd/paper: No such file or directory
+
+ASUS@LAPTOP-NMAQV6PP MINGW64 /d/project_hj_py
+$ cd.
+bash: cd.: command not found
+
+ASUS@LAPTOP-NMAQV6PP MINGW64 /d/project_hj_py
+$ cd
+
+ASUS@LAPTOP-NMAQV6PP MINGW64 ~
+$ cd -
+/d/project_hj_py
+
+ASUS@LAPTOP-NMAQV6PP MINGW64 /d/project_hj_py
+$ cd /d/project_hj_py/paper
+
+ASUS@LAPTOP-NMAQV6PP MINGW64 /d/project_hj_py/paper
+$ cd /d/project_hj_py/paper/jointextract/PRGC-main
+
+ASUS@LAPTOP-NMAQV6PP MINGW64 /d/project_hj_py/paper/jointextract/PRGC-main
+$ cd script
+
+ASUS@LAPTOP-NMAQV6PP MINGW64 /d/project_hj_py/paper/jointextract/PRGC-main/script
+$ train.sh
+current device: 0
+Model type:      
+device: cuda
+device: cuda
+Load pre-train model weights...
+Traceback (most recent call last):
+  File "D:/project_hj_py/paper/jointextract/PRGC-main/train.py", line 216, in <module>
+    bert_config = BertConfig.from_json_file(os.path.join(params.bert_model_dir, 'bert_config.json'))
+  File "D:\Anocada\lib\site-packages\transformers\configuration_utils.py", line 699, in from_json_file
+    config_dict = cls._dict_from_json_file(json_file)
+  File "D:\Anocada\lib\site-packages\transformers\configuration_utils.py", line 704, in _dict_from_json_file      
+    with open(json_file, "r", encoding="utf-8") as reader:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\project_hj_py\\paper\\jointextract\\PRGC-main\\pretrain_models\\bert_base_cased\\bert_config.json'
+in_models\\bert_base_cased\\bert_config.json'
