@@ -1,3 +1,5 @@
 数据重采样相关的代码
 论文：Sentence-Level Resampling for Named Entity Recognition
 博客：https://mp.csdn.net/mp_blog/creation/editor/125308679（内容清楚一些）
+NER_Adaptive_Resampling.py是论文提供代码，但BUS下采样感觉有误
+重采样_代码整理.py是自己整理的代码，论文中采用指标和BUS下采样
