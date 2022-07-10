@@ -6,9 +6,12 @@ Sci, Bio, Fin, K分别代表科学、生物医学、金融和知识。Tok, Sent,
 从左到右的LM（L2R LM）是自回归式LM的一种
 LM : Mask; L2R (Left to Right);前缀语言模型;编码器和解码器(Encoder-Decoder)
 ## 预训练模型辅助目标：
-Next Sentence Prediction (NSP) (Devlin et al., 2019)：一种二元分类损失，用于预测两个片段是否连续出现在较大的文档中，或者是随机不相关的句子。
-Sentence Order Prediction (SOP)（Lan 等人，2020 年）：用于预测两个句子是自然顺序还是交换顺序的二元分类损失。
-Capital Word Prediction (CWP)（Liu 等人，2020b）：对每个词计算的二进制分类目标，预测每个词是否大写。
+- Next Sentence Prediction (NSP) (Devlin et al., 2019)：一种二元分类损失，用于预测两个片段是否连续出现在较大的文档中，或者是随机不相关的句子。
+
+- Sentence Order Prediction (SOP)（Lan 等人，2020 年）：用于预测两个句子是自然顺序还是交换顺序的二元分类损失。
+
+- Capital Word Prediction (CWP)（Liu 等人，2020b）：对每个词计算的二进制分类目标，预测每个词是否大写。
+
 Sentence Deshuffling (SDS) (Liu et al., 2020b)：一种用于重组置换段的多类分类任务。
 Sentence distance prediction句子距离预测 (SDP) (Liu et al., 2020b)：三类分类任务，预测两个句子之间的位置关系（在同一个文档中相邻，在同一个文档中不相邻，在不同文档中）。 
 Masked Column Prediction (MCP) (屏蔽列预测 (MCP)（Yin 等人，2020 年）：给定一个表，恢复屏蔽列的名称和数据类型。 Linguistic-Visual Alignment (LVA) 语言视觉对齐 (LVA)（Lu 等人，2019 年）：预测文本内容是否可以与视觉内容对齐的二元分类。
