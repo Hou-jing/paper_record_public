@@ -1,3 +1,7 @@
 提示学习论文（30篇，可能包括其他主题）
 提示学习总结（研究主题+改进措施+损失函数+评分方式）
 Tsinghua课程总结
+Delta tuning调研：
+https://blog.csdn.net/Hekena/article/details/125908251?spm=1001.2014.3001.5501
+Delta tuning是参数调整方法的一种统称，是在transformer结构中做调整，其目标是尽可能调整较少的参数的，达到与微调相近的结果。
+Delta tuning中比较出名的有adapter、perfix tuning、lora三种，但关键在于transformer的内部结构要明晰。
